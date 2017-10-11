@@ -6,7 +6,7 @@
             <input name="title" type="text" value="{{ title }}" />
             <span class="error">{{ error }}</span><br>
         <label for="body">Blog Entry:</label><br>
-            <textarea rows="5" cols="40" name="body" value="{{ body }}" ></textarea><br>
+            <textarea name="body" rows="5" cols="40">{{ body }}</textarea><br>
         <input type="submit" value="Add Blog" />
     </form>
     {% endblock %}
